@@ -1,0 +1,810 @@
+*{
+    margin:0px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.fl{
+    float:left;
+}
+
+.fr{
+    float:right;
+}
+
+.logo{
+    width:15%;
+    height:30px;
+    margin-top:38px;
+    margin-left:-20px;
+}
+
+.leaf{
+    width:10%;
+    height:50px;
+    margin-left:230px;
+}
+
+.header{
+    border:wavy;
+    width:40%;
+    height:100px;
+    background-color: whitesmoke;
+}
+
+.header2{
+    border:wavy;
+    width:60%;
+    height:100px;
+    background-color:whitesmoke;
+}
+
+.row1{
+    display:inline-block;
+    margin-top:5px;
+    margin-left:20px;
+    text-transform: uppercase;
+    font-family: 'Homemade Apple', cursive;
+    font-size:15px;
+    cursor: pointer;
+    font-weight:600;
+    letter-spacing:-1px;
+}
+
+.row1:hover{
+    color: #3E8E7E;
+}
+
+.row2{
+    display:inline-block;
+    margin-top:35px;
+    margin-left:20px;
+    background-color: #464E2E;
+    border-radius:10px;
+    border:0px solid;
+    color:white;
+    text-transform: uppercase;
+    width:123px;
+    height:40px;
+}
+
+.row2:hover{
+    background-color:#98B4AA;
+}
+
+.icon{
+    color:maroon;
+}
+
+.banner{
+    text-align: center;
+    width:100%;
+    height:500px;
+    background-color: cadetblue;
+    font-family:'Gothic A1', sans-serif;
+}
+
+.one{
+    position:relative;
+    z-index: +1;
+    text-transform: uppercase;
+    margin-top:15px;
+    margin-left:460px;
+    font-size:21px;  
+    color:white;
+    width:38%;
+    height:35px;
+    text-shadow: 0 10px 20px red,0 0 30px orangered, 10px 10px 40px red, 0 0 10px orangered, 0 0 60px orangered, 0 0 70px orangered, 0 0 80px orangered;
+}
+
+.color{
+    color:green;
+}
+
+.join{
+    position:relative;
+    z-index: +1;
+    background-color: orange;
+    font-size:20px;
+    border:0px solid;
+    border-radius:5px;
+    width:10%;
+    margin-top:15px;
+    margin-left:55px;
+}
+
+.join:hover{
+    background-color:#8BDB81;
+}
+
+img{
+    border-radius:2px;
+    width:100%;
+    height:560px;
+}
+
+.green{
+    text-shadow: 2px 2px yellowgreen;
+    font-family: 'Gochi Hand', cursive;
+    margin-left:100px;
+    margin-top:-350px;
+    font-size:50px;
+    color:black;
+    font-weight: 900;
+}
+
+.green1{
+    text-shadow: 2px 2px yellowgreen;
+    font-family: 'Gochi Hand', cursive;
+    margin-left:88px;
+    font-size:50px;
+    color:black;
+    margin-top:-35px;
+    font-weight: 900;
+}
+
+.col1{
+    background-color:whitesmoke;
+    height:150px;
+    width:20%;
+    height:150px;
+}
+
+.co1{
+    margin-left:120px;
+    margin-top:40px;
+}
+
+.co2{
+    margin-left:120px;
+}
+
+.col2{
+    background-color:whitesmoke;
+    height:150px;
+    width:40%;
+    height:150px;
+}
+
+.col3{
+    background-color:whitesmoke;
+    height:150px;
+    width:40%;
+    height:150px;
+}
+
+.co3{
+    margin-top:40px;
+    margin-left:0px;
+}
+
+.column{
+    margin-top:165px;
+    height:408px;
+    width:100%;
+    background-color: thistle;
+}
+
+.column1{
+    box-shadow: 10px 10px 20px thistle, 10px 10px 40px yellowgreen, 0 0 10px yellowgreen, 0 0 60px yellow, 0 0 0px orangered, 0 0 80px orangered;
+    height:400px;
+    width:50%;
+    margin-left:10px;
+    background-color: black;
+}
+
+.column2{
+    box-shadow: 10px 10px 20px thistle, 0px 0px 0px yellowgreen, 0 10px yellowgreen, 20px 10px yellow;  
+    height:400px;
+    width: 48.5%;
+    margin-right:0px;
+    background-color: black;
+}
+
+.co4{
+    margin-left:170px;
+    margin-top:40px;
+    text-transform: uppercase;
+}
+
+.col4{
+    margin-top:100px;
+    margin-left:260px;
+    color:white;
+    font-size:30px;
+    font-family:'Gothic A1', sans-serif;
+}
+
+.facebook{
+    width:12%;
+    height:35px;
+    margin-left:155px;
+}
+
+.twitter{
+    width:5%;
+    height:30px;
+    margin-left:5px;
+}
+
+.insta{
+    width:10%;
+    height:30px;
+    margin-left:5px;
+}
+
+.youtube{
+    width:5%;
+    height:30px;
+    margin-left:10px;
+}
+
+.planet{
+    margin-left:260px;
+    background: linear-gradient(to right, green,#ACB992);
+    width:40%;
+    height:50px;
+    color:white;
+    font-size:25px;
+    border:0px solid;
+    border-radius:5px;
+    font-family:'Gothic A1', sans-serif;
+}
+
+.school{
+    width:40%;
+}
+
+.form{
+    border-radius:5px;
+    margin-top:50px;
+    margin-left:40px;
+    width:25%;
+    height:50px;
+    font-size:15px;
+}
+
+.form1{
+    border-radius:5px;
+    margin-top:10px;
+    margin-left:5px;
+    width:25%;
+    height:50px;
+    font-size:15px;
+}
+
+.form2{
+    border-radius:5px;
+    margin-top:10px;
+    margin-left:5px;
+    width:25%;
+    height:50px;
+    font-size:15px;
+}
+
+.form3{
+    margin-top:10px;
+    margin-left:40px;
+    width:25%;
+    height:50px;
+    font-size:15px;
+    border-radius:5px;
+}
+
+.form4{
+    border-radius:5px;
+    margin-top:10px;
+    margin-left:5px;
+    width:51%;
+    height:50px;
+    font-size:15px;
+}
+
+.form5{
+    border-radius:5px;
+    margin-top:10px;
+    margin-left:40px;
+    width:25%;
+    height:50px;
+    font-size:15px;
+}
+
+.form6{
+    border-radius:5px;
+    margin-top:10px;
+    margin-left:40px;
+    width:25%;
+    height:50px;
+    font-size:15px;
+}
+
+.form7{
+    margin-top:2px;
+    border-radius:5px;
+    margin-left:40px;
+    width:25%;
+    height:50px;
+    background-color: white;
+}
+
+.captcha{
+    color:grey;
+    font-size:15px;
+    text-align:center;
+    margin-top:12px;
+}
+
+.form8{
+    color:white;
+    border-radius:5px;
+    margin-left:5px;
+    width:25%;
+    height:50px;
+    font-size:25px;
+    background-color: lightskyblue;
+}
+
+.form9{
+    border:0px solid;
+    border-radius:5px;
+    margin-left:5px;
+    width:25%;
+    height:50px;
+    font-size:15px;
+    color:white;
+    text-transform: uppercase;
+    background-color: maroon;
+}
+
+.form9:hover{
+    background-color: #ACB992;
+}
+
+.img2{
+    width:100%;
+    height:500px;
+}
+
+.footer{
+    background-color: black;
+    height:50px;
+    width:100%;
+    }
+    
+    .copyright{
+        float:left;
+        margin-top:15px;
+        margin-left:200px;
+        color:grey
+    }
+    
+    .name{
+        margin-top:15px;
+        margin-right:200px;
+        float:right;
+        color:grey;
+    }
+    
+    .footer1{
+        height:150px;
+        width:100%;
+        background-color: whitesmoke;
+    }
+
+
+
+
+
+
+
+
+
+    @media only screen and (max-width: 600px) {
+ 
+        *{
+            
+    margin:0px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.fl{
+    float:left;
+}
+
+.fr{
+    float:right;
+}
+
+.logo{
+    width:35%;
+    height:30px;
+    margin-top:50px;
+    margin-left:-25px;
+}
+
+.leaf{
+    width:30%;
+    height:50px;
+    margin-left:48px;
+}
+
+.header{
+    border:wavy;
+    width:40%;
+    height:150px;
+    background-color: whitesmoke;
+}
+
+.header2{
+    border:wavy;
+    width:60%;
+    height:150px;
+    background-color:whitesmoke;
+}
+
+.row1{
+    display:flex;
+    margin-top:7px;
+    margin-left:48px;
+    text-transform: uppercase;
+    font-family: 'Homemade Apple', cursive;
+    font-size:12px;
+    cursor: pointer;
+    font-weight:600;
+    letter-spacing:-1px;
+}
+
+.row1:hover{
+    color: #3E8E7E;
+}
+
+.row2{
+    display:inline-block;
+    margin-top:35px;
+    margin-left:10px;
+    background-color: maroon;
+    border-radius:10px;
+    border:0px solid;
+    color:white;
+    text-transform: uppercase;
+    width:123px;
+    height:40px;
+}
+
+.row2:hover{
+    background-color:#464E2E;
+}
+
+.icon{
+    color:maroon;
+}
+
+.banner{
+    text-align: center;
+    width:100%;
+    height:500px;
+    font-family:'Gothic A1', sans-serif;
+}
+
+.one{
+    position:relative;
+    z-index: +1;
+    text-transform: uppercase;
+    margin-top:10px;
+    margin-left:35px;
+    font-size:15px;  
+    color:white;
+    width:80%;
+    text-shadow: 0 10px 20px red,0 0 30px orangered, 10px 10px 40px red, 0 0 10px orangered, 0 0 60px orangered, 0 0 70px orangered, 0 0 80px orangered;
+}
+
+.color{
+    color:green;
+}
+
+.join{
+    position:relative;
+    z-index: +1;
+    background-color: orange;
+    font-size:20px;
+    border:0px solid;
+    border-radius:5px;
+    width:24%;
+    margin-top:15px;
+    margin-left:0px;
+}
+
+.join:hover{
+    background-color:#8BDB81;
+}
+
+img{
+    border-radius:2px;
+    width:100%;
+    height:560px;
+}
+
+.green{
+    text-shadow: 2px 2px yellowgreen;
+    font-family: 'Gochi Hand', cursive;
+    margin-left:0px;
+    margin-top:-350px;
+    font-size:32px;
+    color:black;
+    font-weight: 900;
+}
+
+.green1{
+    text-shadow: 2px 2px yellowgreen;
+    font-family: 'Gochi Hand', cursive;
+    margin-left:0px;
+    font-size:32px;
+    color:black;
+    margin-top:-20px;
+    font-weight: 900;
+}
+
+.col1{
+    background-color:whitesmoke;
+    height:150px;
+    width:20%;
+    height:150px;
+}
+
+.co1{
+    margin-left:10px;
+    margin-top:20px;
+    font-size:10px;
+}
+
+.co2{
+    margin-left:10px;
+    font-size:10px;
+}
+
+.col2{
+    background-color:whitesmoke;
+    height:150px;
+    width:40%;
+    height:150px;
+}
+
+.col3{
+    background-color:whitesmoke;
+    height:150px;
+    width:40%;
+    height:150px;
+}
+
+.co3{
+    margin-top:20px;
+    margin-left:0px;
+    font-size:10px;
+}
+
+.column{
+    margin-top:165px;
+    height:408px;
+    width:100%;
+}
+
+.column1{
+    height:400px;
+    width:100%;
+    margin-left:0px;
+    background-color: black;
+}
+
+.column2{
+    height:400px;
+    width: 100%;
+    margin-right:20px;
+}
+
+.co4{
+    font-size:10px;
+    margin-left:20px;
+    margin-top:20px;
+    text-transform: uppercase;
+}
+
+.col4{
+    margin-top:140px;
+    margin-left:50px;
+    color:white;
+    font-size:30px;
+    font-family:'Gothic A1', sans-serif;
+}
+
+.planet{
+    margin-left:72px;
+    background: linear-gradient(to right, green,#ACB992);
+    width:60%;
+    height:60px;
+    color:white;
+    font-size:25px;
+    border:0px solid;
+    border-radius:5px;
+    font-family:'Gothic A1', sans-serif;
+}
+
+.facebook{
+    width:25%;
+    height:35px;
+    margin-left:8px;
+}
+
+.twitter{
+    width:15%;
+    height:30px;
+    margin-left:0px;
+}
+
+.insta{
+    width:15%;
+    height:30px;
+    margin-left:0px;
+}
+
+.youtube{
+    width:15%;
+    height:30px;
+    margin-left:3px;
+}
+
+.school{
+    width:40%;
+}
+
+.form{
+    border-radius:5px;
+    margin-top:25px;
+    margin-left:35px;
+    width:25%;
+    height:50px;
+    font-size:15px;
+}
+
+.form1{
+    border-radius:5px;
+    margin-top:10px;
+    margin-left:5px;
+    width:25%;
+    height:50px;
+    font-size:15px;
+}
+
+.form2{
+    border-radius:5px;
+    margin-top:10px;
+    margin-left:5px;
+    width:25%;
+    height:50px;
+    font-size:15px;
+}
+
+.form3{
+    margin-top:10px;
+    margin-left:35px;
+    width:25%;
+    height:50px;
+    font-size:15px;
+    border-radius:5px;
+}
+
+.form4{
+    border-radius:5px;
+    margin-top:10px;
+    margin-left:5px;
+    width:52%;
+    height:50px;
+    font-size:15px;
+}
+
+.form5{
+    border-radius:5px;
+    margin-top:10px;
+    margin-left:35px;
+    width:25%;
+    height:50px;
+    font-size:15px;
+}
+
+.form6{
+    border-radius:5px;
+    margin-top:10px;
+    margin-left:35px;
+    width:28%;
+    height:50px;
+    font-size:15px;
+}
+
+.form7{
+    border-radius:5px;
+    margin-left:35px;
+    width:40%;
+    height:50px;
+    background-color: white;
+}
+
+.captcha{
+    color:grey;
+    font-size:15px;
+    text-align:center;
+    margin-top:2px;
+}
+
+.form8{
+    color:white;
+    border-radius:5px;
+    margin-left:5px;
+    width:40%;
+    height:50px;
+    font-size:19px;
+    background-color: lightskyblue;
+}
+
+.form9{
+    border:0px solid;
+    border-radius:5px;
+    margin-top:10px;
+    margin-left:102px;
+    width:45%;
+    height:50px;
+    font-size:12px;
+    color:white;
+    text-transform: uppercase;
+    background-color: maroon;
+}
+
+.form9:hover{
+    background-color: #ACB992;
+}
+
+.img2{
+    width:100%;
+    height:500px;
+}
+
+.footer{
+    background-color:black;
+    height:50px;
+    width:100%;
+    }
+    
+    .copyright{
+        margin-left:50px;
+        color:grey;
+        font-size:12px;
+    }
+    
+    .name{
+        margin-right:70px;
+        color:grey;
+        font-size:12px;
+        margin-top:5px;
+    }
+    
+    .footer1{
+        height:150px;
+        width:100%;
+        background-color: whitesmoke;
+    }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
